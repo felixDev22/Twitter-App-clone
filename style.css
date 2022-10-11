@@ -13,6 +13,17 @@ body {
   font-family: Poppins, sans-serif;
 }
 
+:root{
+    --text-color: #0f1419; 
+    --text2-color: #576975;
+    --twitter-blue: #1D9BF0;
+    --grey-bg: #F7F9F9;
+}
+
+
+
+
+
 .container {
   padding: 10px 12%;
 }
@@ -23,7 +34,7 @@ body {
   width: 1.8%;
 }
 span {
-  color: #0f1419;
+  color: 
   font-size: 20px;
   margin-left: 10px;
 }
