@@ -13,16 +13,27 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-:root{
-    --text-color: #0f1419; 
-    --text2-color: #576975;
-    --twitter-blue: #1D9BF0;
-    --grey-bg: #F7F9F9;
+:root {
+  --text-color: #0f1419;
+  --text2-color: #576975;
+  --twitter-blue: #1d9bf0;
+  --grey-bg: #f7f9f9;
 }
-
-
-
-
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+}
+h4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
 
 .container {
   padding: 10px 12%;
@@ -34,7 +45,7 @@ body {
   width: 1.8%;
 }
 span {
-  color: 
+  color: var(--text-color);
   font-size: 20px;
   margin-left: 10px;
 }
