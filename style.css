@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  padding: 10px 12%;
+}
+.logo {
+  width: 2.5%;
+}
+.icon {
+  width: 1.8%;
+}
+span {
+  color: #0f1419;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.left-sidebar ul li {
+  display: block;
+  padding: 20px 0.5em;
+}
