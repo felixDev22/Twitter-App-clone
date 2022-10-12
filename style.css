@@ -18,6 +18,7 @@ body {
   --text2-color: #576975;
   --twitter-blue: #1d9bf0;
   --grey-bg: #f7f9f9;
+  --line-color: #eee;
 }
 h2 {
   font-size: 20px;
@@ -36,13 +37,18 @@ h4 {
 }
 
 .container {
-  padding: 10px 12%;
+  padding: 0 12%;
+  display: flex;
+}
+.left-sidebar {
+  flex-basis: 20%;
 }
 .logo {
-  width: 2.5%;
+  width: 10.5%;
 }
 .icon {
-  width: 1.8%;
+  width: 12.8%;
+  align-items: center;
 }
 span {
   color: var(--text-color);
@@ -51,5 +57,40 @@ span {
 }
 .left-sidebar ul li {
   display: block;
-  padding: 20px 0.5em;
+  padding: 19px 0.5em;
+}
+
+.btn {
+  padding: 15px 70px;
+  border-radius: 25px;
+  background-color: var(--twitter-blue);
+  color: #fff;
+}
+.top img {
+  width: 5%;
+}
+.top {
+  display: flex;
+  height: 9%;
+  width: 100%;
+
+  padding: 15px;
+  background: #ffffff;
+}
+.top h3 {
+  color: var(--text-color);
+}
+
+.top img {
+  display: flex;
+  float: right;
+}
+
+.main-content {
+  flex-basis: 48%;
+  border: solid 1px #eee;
+  height: auto;
+}
+.right-sidebar {
+  flex-basis: 20%;
 }
