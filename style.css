@@ -43,12 +43,12 @@ h5 {
 }
 
 .container {
-  padding: 0 12%;
+  padding: 0 10%;
   display: flex;
   justify-content: space-between;
 }
 .left-sidebar {
-  flex-basis: 20%;
+  flex-basis: 30%;
 }
 .logo {
   width: 12.5%;
@@ -72,7 +72,7 @@ span {
   border-radius: 25px;
   background-color: var(--twitter-blue);
   color: #fff;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 .top img {
   width: 5%;
@@ -81,7 +81,7 @@ span {
   display: flex;
   height: 9%;
   width: 100%;
-  padding: 15px;
+  padding-top: 15px;
   background: #ffffff;
 }
 .top h3 {
@@ -94,9 +94,10 @@ span {
 }
 
 .main-content {
-  flex-basis: 48%;
+  flex-basis: 50%;
   border: solid 1px #eee;
   height: auto;
+  padding: 0 15px;
 }
 .right-sidebar {
   flex-basis: 20%;
@@ -113,4 +114,27 @@ span {
 }
 .user-details h3 {
   color: var(--text-color);
+}
+.Whts-happening {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text2-color);
+}
+
+.right-sidebar {
+  flex-basis: 30%;
+  height: 100vh;
+}
+.media-icons {
+  padding: 20px 0;
+}
+
+.media-icons ul {
+  display: flex;
+  margin-left: 55px;
+}
+.media-icons img {
+  width: 15px;
+  margin-left: 20px;
 }
