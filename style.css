@@ -49,7 +49,6 @@ hr {
 .container {
   padding: 0 10%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -57,6 +56,7 @@ hr {
 
 .left-sidebar {
   flex-basis: 25%;
+  position: relative;
 }
 .logo {
   width: 12.5%;
@@ -75,7 +75,7 @@ span {
 }
 
 .btn {
-  padding: 15px 70px;
+  padding: 10px 60px;
   border-radius: 25px;
   background-color: var(--twitter-blue);
   color: #fff;
@@ -166,7 +166,7 @@ span {
   align-items: center;
   gap: 10px;
 }
-.name h3 {
+.user-name h3 {
   color: var(--text-color);
 }
 .dot {
@@ -177,15 +177,25 @@ span {
   align-items: center;
 }
 
-.name h5 {
+.user-name h5 {
   font-size: 13px;
   font-weight: normal;
 }
+.more {
+  display: flex;
+  float: right;
+}
+
 .post-section p {
   font-size: 13px;
   font-weight: normal;
   line-height: 20px;
   margin-top: 5px;
+}
+.post-image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 8px;
 }
 
 /*--------------Right-Sidebar Starts----------------*/
@@ -193,4 +203,5 @@ span {
 .right-sidebar {
   flex-basis: 25%;
   height: 100vh;
+  background-color: #1d9bf0;
 }

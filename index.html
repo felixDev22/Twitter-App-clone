@@ -5,17 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Twitter Clone</title>
-    <script
-      src="https://kit.fontawesome.com/64655d0f85.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"/>
+
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <!--------------- left-sidebar starts here ---------------->
-      <aside class="left-sidebar">
+      <div class="left-sidebar">
         <ul>
           <li>
             <a href="index.html">
@@ -77,11 +75,11 @@
             <a href="#"><h5>@Linda7w</h5></a>
           </div>
         </div>
-      </aside>
+      </div>
       <!--------------- left-sidebar Ends here ---------------->
 
       <!--------------- main-content starts here ---------------->
-      <section class="main-content">
+      <div class="main-content">
         <div class="top">
           <div id="home">
             <ul>
@@ -125,26 +123,51 @@
             <h5>@Linda7w</h5>
             <div class="dot"></div>
             <h5>20m</h5>
+            <div class="more">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
             </div>
             <div class="post-section">
-              <p>
+            <ul>
+              <li><p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim venia.
-             
               </p>
+            </li>
+          
+              <li class="post-image">
+              <img src="images/mara.jpeg" alt="mara">
+              </li>
+
+              <li class="comments">
+                <li><i class="fab-thin fa-arrows-retweet fa-2x" aria-hidden="true"></i></li>
+          
+
+              </li>
+                </ul>
+            </div>
             </div>
             </div>
           </div>
-        </div>
-      </section>
+      
 
       <!--------------- main-content Ends here ---------------->
 
       <!--------------- Right-sidebar Starts here ---------------->
 
-      <aside class="right-sidebar"></aside>
+      <div class="right-sidebar">
+        
+        <ul>
+          <li>
+            <input type="text" class="search" placeholder="Search">
+          </li>
+        </ul>
+      </div>
       <!--------------- Right-sidebar Ends here ---------------->
     </div>
+
   </body>
 </html>
