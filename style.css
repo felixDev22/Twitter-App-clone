@@ -82,17 +82,18 @@ p {
   width: 12.5%;
 }
 
-.home-icon {
-  width: 14%;
+.home-icon img {
+  width: 35px;
 }
 
-.home-icon img ::after {
+.home-icon ul li img:after {
   content: "";
+  width: 24px;
+  height: 24px;
   background: var(--twitter-blue);
   position: absolute;
-  width: 14px;
-  height: 14px;
   border-radius: 50%;
+  bottom: 20px;
 }
 
 .icon {
@@ -214,7 +215,11 @@ span {
   flex-direction: column;
   padding-top: 20px;
 }
-
+.tweet-content:hover {
+  background-color: var(--grey-bg);
+  padding: 25px;
+  transition: 0.4sec;
+}
 .user-info {
   margin-top: -20px;
   margin-left: 80px;
