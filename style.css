@@ -264,4 +264,20 @@ span {
 }
 .location {
   display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.location h3 {
+  font-size: 12px;
+  color: var(--text2-color);
+  font-weight: normal;
+}
+.trending h2 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+.trending h4 {
+  font-size: 12px;
+  color: var(--text2-color);
 }
