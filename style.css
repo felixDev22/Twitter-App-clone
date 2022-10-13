@@ -69,17 +69,32 @@ p {
   flex-basis: 22%;
   position: relative;
   height: auto;
+  align-items: center;
 }
+
 .logo {
   width: 12.5%;
+}
+
+.home-icon {
+  width: 14%;
+}
+.home-icon img ::after {
+  content: "";
+  background: var(--twitter-blue);
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
 }
 .icon {
   width: 30px;
 }
 span {
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 17px;
   margin-left: 10px;
+  align-items: center;
 }
 .left-sidebar ul li {
   display: block;
@@ -107,10 +122,10 @@ span {
 }
 .top {
   display: flex;
-  height: 4%;
+  height: 1.8%;
   width: 100%;
   padding-top: 15px;
-  background: #ffffff;
+  background: #fff;
 }
 .top h3 {
   color: var(--text-color);
@@ -126,7 +141,7 @@ span {
 .user-pic {
   width: 60px;
   border-radius: 50%;
-  border: solid 2px rgb(255, 255, 255);
+  border: solid 2px #fff;
 }
 .user-details {
   display: flex;
@@ -181,6 +196,7 @@ span {
   padding-top: 20px;
 }
 .user-info {
+  margin-top: -20px;
   margin-left: 80px;
 }
 
@@ -335,4 +351,29 @@ span {
   font-weight: normal;
   margin-top: 20px;
   color: var(--text2-color);
+}
+
+/*-------------------------Media Query-----------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 5px 2%;
+    display: block;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    width: 100%;
+    padding: 25px;
+    background: #fff;
+  }
+  .user-info {
+    margin-top: -20px;
+  }
+
+  .left-sidebar,
+  .right-sidebar {
+    display: none;
+  }
 }
