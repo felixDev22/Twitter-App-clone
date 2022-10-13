@@ -20,6 +20,13 @@ body {
   --grey-bg: #f0f3f4;
   --line-color: #eee;
 }
+
+h1 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
 h2 {
   font-size: 20px;
   font-weight: 400;
@@ -44,6 +51,10 @@ h5 {
 hr {
   width: 100%;
   border-bottom: 0.01px solid var(--line-color);
+}
+p {
+  font-size: 12px;
+  font-weight: normal;
 }
 
 .container {
@@ -120,8 +131,17 @@ span {
 .user-details {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
+.profile {
+  display: flex;
+  align-items: center;
+}
+.name-tag {
+  margin-left: 10px;
+}
+
 .user-details h3 {
   color: var(--text-color);
 }
@@ -259,8 +279,8 @@ span {
   background: var(--grey-bg);
   margin-top: 20px;
   border-radius: 25px;
-  padding: 10px;
-  height: 600px;
+  padding: 20px;
+  height: 610px;
 }
 .location {
   display: flex;
@@ -279,5 +299,40 @@ span {
 }
 .trending h4 {
   font-size: 12px;
+  color: var(--text2-color);
+}
+.show-more a {
+  color: var(--twitter-blue);
+  font-size: 14px;
+}
+.show-more {
+  margin-top: 20px;
+}
+.who-to-follow {
+  display: flex;
+  flex-direction: column;
+  background: var(--grey-bg);
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 20px;
+  height: 360px;
+}
+.who-to-follow .user-details {
+  margin-top: 20px;
+}
+
+.btn3 {
+  padding: 5px 15px;
+  border-radius: 25px;
+  background: #000;
+  float: right;
+}
+.btn3 h3 {
+  color: #fff;
+}
+.right-container p {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 20px;
   color: var(--text2-color);
 }
