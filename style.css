@@ -214,11 +214,11 @@ span {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  transition: 0.3 sec;
 }
 .tweet-content:hover {
   background-color: var(--grey-bg);
   padding: 25px;
-  transition: 0.4sec;
 }
 .user-info {
   margin-top: -20px;
