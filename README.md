@@ -37,4 +37,4 @@ Give a ⭐️ ⭐️ if you like this project!.
 
 ## Acknowledgments
 
-- Tweeter.com, Freepiks.com & Flaticon.com
+- Twitter.com, Freepiks.com & Flaticon.com
