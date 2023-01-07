@@ -86,7 +86,7 @@ p {
   width: 35px;
 }
 
-.home-icon ul li img:after {
+.home-icon ul li img::after {
   content: '';
   width: 24px;
   height: 24px;
@@ -216,6 +216,7 @@ span {
   padding-top: 20px;
   transition: 0.3 sec;
 }
+
 .tweet-content:hover {
   background-color: var(--grey-bg);
 }
