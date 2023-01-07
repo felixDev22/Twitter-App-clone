@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -86,8 +86,8 @@ p {
   width: 35px;
 }
 
-.home-icon ul li img:after {
-  content: "";
+.home-icon ul li img::after {
+  content: '';
   width: 24px;
   height: 24px;
   background: var(--twitter-blue);
@@ -216,10 +216,11 @@ span {
   padding-top: 20px;
   transition: 0.3 sec;
 }
+
 .tweet-content:hover {
   background-color: var(--grey-bg);
-  padding: 25px;
 }
+
 .user-info {
   margin-top: -20px;
   margin-left: 80px;
